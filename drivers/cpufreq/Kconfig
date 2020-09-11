@@ -275,7 +275,6 @@ config CPU_FREQ_GOV_CONSERVATIVE
 
 	  If in doubt, say N.
 
-<<<<<<< HEAD
 config CPU_FREQ_GOV_ADAPTIVE
 	tristate "'adaptive' cpufreq policy governor"
 	default n
@@ -297,7 +296,7 @@ config CPU_FREQ_GOV_ADAPTIVE
 	  For details, take a look at linux/Documentation/cpu-freq.
 
 	  If in doubt, say N.
-=======
+
 config CPU_FREQ_GOV_IMPULSE
 	tristate "'impulse' cpufreq policy governor"
 	help
@@ -319,7 +318,6 @@ config CPU_FREQ_GOV_INTELLIACTIVE
 		module will be called cpufreq_interactive.
 		For details, take a look at linux/Documentation/cpu-freq.
 		If in doubt, say N.
->>>>>>> 4f8a98b45... Add Impulse and Intelliactive Governor
 
 config CPU_FREQ_GOV_SCHED
 	bool "'sched' cpufreq governor"
